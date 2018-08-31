@@ -9,11 +9,10 @@ import ckeditor_uploader.fields
 
 class Migration(migrations.Migration):
 
-    replaces = [(b'comet', '0001_initial'), (b'comet', '0002_auto_20150730_1153'), (b'comet', '0003_indicator_outcomearea'), (b'comet', '0004_auto_20160227_1732'), (b'comet', '0005_auto_20160227_2258'), (b'comet', '0006_auto_20160314_1629'), (b'comet', '0007_promote_framework_to_concept'), (b'comet', '0008_fix_concept_fields')]
+    replaces = [('comet', '0001_initial'), ('comet', '0002_auto_20150730_1153'), ('comet', '0003_indicator_outcomearea'), ('comet', '0004_auto_20160227_1732'), ('comet', '0005_auto_20160227_2258'), ('comet', '0006_auto_20160314_1629'), ('comet', '0007_promote_framework_to_concept'), ('comet', '0008_fix_concept_fields')]
 
     dependencies = [
-        ('aristotle_mdr', '0001_squashed_0012_better_workflows'),
-        ('aristotle_mdr', '0013_concept_field_fixer_part1'),
+        ('aristotle_mdr', '0001_squashed_0017_add_organisations'),
     ]
 
     operations = [
